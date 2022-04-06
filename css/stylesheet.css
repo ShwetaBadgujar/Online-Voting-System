@@ -24,7 +24,7 @@ select {
 }
 
 body {
-  background-color: #b8e994;
+  background-image: url(login.jpg);
 }
 
 #loginbtn {

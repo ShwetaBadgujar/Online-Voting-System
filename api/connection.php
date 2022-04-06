@@ -1,4 +1,7 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "", "voting");
+$connect = mysqli_connect("localhost", "root", "", "db");
 
 ?>
+
+
+
