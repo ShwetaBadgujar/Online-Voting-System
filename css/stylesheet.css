@@ -1,3 +1,7 @@
+body{
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 input {
   padding: 10px;
   border-radius: 5px;
@@ -23,9 +27,7 @@ select {
   padding: 5px;
 }
 
-body {
-  background-image: url(login.jpg);
-}
+
 
 #loginbtn {
   padding: 5px;
