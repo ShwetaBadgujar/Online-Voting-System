@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+     
+}
+
+.about-section{
+    background: url(hm.jpg) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    height: 100%;
+    padding: 100px 0px 100px;
+}
+.about-section a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #ff4d73;
+    color: #fff;
+    border: 1px solid #ff4d73;
+    font-size: 16px;
+    
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    transition: .5s;
+
+}
+.about-section a:hover{
+    background: transparent ;
+}
+
+.inner-container{
+   
+    width: 50%;
+    float: right;
+    background-color: #e9d7e7;
+    padding: 150px;
+box-shadow: rgb(14 30 37 / 16%) 0px 13px 14px 14px, rgb(14 30 37 / 32%) 0px -17px 22px 0px;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    
+    font-size: 13px;
+    
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+h1{
+  color: #1c378f;
+
+}
+h4{
+    color: #193b5e;
+    
+  }
+  
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+span{
+  cursor: pointer;
+  font-size: 16px;
+text-align: center;
+padding: 10px;
+  width: 500px;
+}
+span:hover{
+background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+color: #fff;
+border-radius: 20px;
+transition: 0.5s;
+
+}
+.active{
+  background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+  color: #fff;
+  border-radius: 20px;
+
+
+}
+
+ 

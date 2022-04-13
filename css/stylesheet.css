@@ -15,7 +15,7 @@ select {
 #upload {
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid #1c73c3;
 }
 
 #headerSection {
@@ -25,6 +25,18 @@ select {
 
 #loginSection {
   padding: 5px;
+  width: 40%;
+  margin: 7%;
+  border-radius: 10%;
+  background-color: rgb(47,47,47,0.4);
+}
+
+#reg{
+  padding: 5px;
+  border-radius: 7%;
+  background-color: rgb(47,47,47,0.4);
+    width: 40%;
+    margin-left: 7%;
 }
 
 
@@ -35,6 +47,11 @@ select {
   background-color: #3498db;
   color: white;
   border-radius: 5px;
+}
+#loginbtn:hover{
+  
+  color:black ;
+  background-color: #c6d7db;
 }
 
 #reglink {
@@ -57,14 +74,14 @@ a {
 #profileSection {
   width: 30%;
   float: left;
-  background-color: white;
+  background-color: #c6d7db;
   padding: 20px;
 }
 
 #groupSection {
   width: 60%;
   float: right;
-  background-color: white;
+  background-color: #c6d7db;
   padding: 20px;
 }
 
@@ -89,3 +106,21 @@ a {
   color: white;
   border-radius: 5px;
 }
+.b {
+  text-decoration: none;
+    padding: 5px 20px;
+    background: #ff4d73;
+    
+    border: 1px solid #ff4d73;
+    font-size: 16px;
+    
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    transition: .5s;
+
+}
+.b:hover{
+    background: transparent ;
+}
+
