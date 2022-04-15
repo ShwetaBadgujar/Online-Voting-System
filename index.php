@@ -6,7 +6,7 @@
     <body background="login.jpg">
         <div class="b">
 
-    <a href="Home.html" style="color:#ffffff" >Back</a>
+    <a href="Home.html" style="color:#ffffff" >Back To Home</a>
 </div>
             <center>
             <div id="headerSection">
@@ -22,8 +22,7 @@
                     <input type="password" name="pass" placeholder="Enter password" required><br><br>
                     <select name="role" style="width: 25%; border: 2px solid black">
                         <option value="1">Voter</option>
-                        <option value="2"
-                        >Candidate</option>
+                        <option value="2">Candidate</option>
                     </select><br><br>                  
                     <button id="loginbtn" type="submit" name="loginbtn">Login</button><br><br>
                     <p style="color:#C9DDEE">New user? <a href="routes/register.php" style="text-shadow: 0 0 3px #000000; color:white" >Register here</a>
