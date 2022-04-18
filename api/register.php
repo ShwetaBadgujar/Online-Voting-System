@@ -9,7 +9,23 @@
     $image = $_FILES['image']['name'];
     $tmp_name = $_FILES['image']['tmp_name'];
     $role = $_POST['role'];
+    function vali_phone($phone)
+{
+    return preg_match('/^[0-9]{10}+$/', $phone);
+}
 
+    
+   
+
+
+    if(!vali_phone($mobile))
+    {
+        echo '<script>
+                alert("Mobile no. is invalide!");
+                window.location = "../routes/register.php";
+            </script>'; 
+            exit();
+    }
     if($cpass!=$pass){
         echo '<script>
                 alert("Passwords do not match!");

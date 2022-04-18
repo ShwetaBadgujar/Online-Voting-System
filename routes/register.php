@@ -5,7 +5,7 @@
     </head>
     <body background="login.jpg">
         <div class="b">
-    <a href="Home.html" style="color:#ffffff"> Back</a>
+    <a onclick="history.back()" style="color:#ffffff"> Back</a>
 </div>
         <center>
             <div id="headerSection">
